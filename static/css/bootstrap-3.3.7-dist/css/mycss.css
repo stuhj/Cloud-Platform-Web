@@ -1,0 +1,141 @@
+/*
+.table > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(60,47,65,0.3);
+}
+
+.table > tbody>tr>td{
+    border: 1px;
+}
+
+.table > tbody{
+    border-radius: 20px;
+    color: azure;
+}
+
+.table > thead > tr > th{
+    border: 0;
+    background: black;
+    color: azure;
+}
+
+.table > thead{
+    height: 50px;
+}
+
+.table {
+    text-align: center;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 1200px;
+}
+
+.table th{
+    text-align: center;
+    font-size: 18px;
+}
+*/
+.panel.pstyle{
+    height: 100px;
+    width: 150px;
+    background: rgba(28,28,28,0.9);
+    margin: 0;
+}
+
+.container-full{
+    border-radius: 20px;
+}
+.panel-default{
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: azure;
+    margin: 40px;
+    border: 0
+}
+
+.panel{
+    border-radius: 20px;
+}
+.table{
+    font-size: 14px;
+    color: azure;
+    width: 1200px;
+}
+.table thead{
+    font-size: 16px;
+
+}
+.fixsize{
+    margin: 38px;
+    width: 150px;
+    height: 100px;
+}
+
+
+
+.bnsitem{
+    margin:34px 59px;
+}
+
+.all{
+     border-radius: 30px;
+     padding:30px;
+     background: rgba(28,28,28,0.5);
+ }
+
+
+
+.page{
+    position: relative;
+}
+
+/* Sidebar navigation */
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: rgba(0,0,0,0.8);
+        border: 0;
+    }
+}
+.nav-sidebar {
+    margin-right: 21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-left: 30px;
+    color: azure;
+    font-size: 20px;
+}
+
+.detail{
+    position: absolute;
+    left: 100px;
+}
+/*
+.nav-sidebar > li:nth-of-type(odd){
+    background-color: rgba(86,63,46, 0.8);
+}
+*/
+
+.table tr:hover,
+.myfoot:hover{
+    color: azure;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.myfoot{
+    position: fixed;
+    bottom: 0px;
+}
+
+
